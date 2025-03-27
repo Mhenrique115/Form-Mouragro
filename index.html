@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="style.css">
+
+
+</head>
+<header>
+        <img src="img/logo moragro.png" alt="Logo Mouragro" style="width: 80px;">
+        <p>Mouragro</p>
+</header>
+<body>
+        <section>
+                <div class="formulario">
+                             
+                  <form action="" method="post" name="formulario-contatos">
+                             <label class="representate">Representante: <br>
+                                <select name="representantes" required>
+                                        <option value=""selected></option>
+                                        <option value="513">JOAO</option>
+                                        <option value="514">PEDRO</option>
+                                        <option value="515">MARIA</option>
+                                        <option value="516">LARA</option>
+                                        <option value="517">WALDEMAR</option>
+                                        <option value="518">LEANDRO</option>
+                                        <option value="519">CAROL</option>
+                                        <option value="511">MIGUEL</option>
+                                        <option value="512">BENEDITO</option>
+                                    </select>
+                             </label>
+                             
+                             <label class="cliente">Cliente: <br>
+                                <input type="text" name="cliente" required placeholder="Razão Social." pattern="[a-zA-Z\s]+$">
+                             </label>
+
+                             <label class="cpf">CPF/CNPJ: <br>
+                                <input type="text" name="CPF_CNPJ" required placeholder="Somente os Números." maxlength="14" minlength="11" pattern="[0-9]+">
+
+                             </label>
+
+                             <label class="cep">CEP: <br>
+                                <input type="text" name="CEP" placeholder="Somente os Números." maxlength="8" minlength="8" pattern="[0-9]+">
+                             </label>
+
+                             <label class="item">Item: <br>
+                                <input type="text" name="item" placeholder="Codigo do Item." maxlength="4" minlength="4" pattern="[0-9]+">
+                             </label>
+
+                             <label class="qtd">Quantidade: <br>
+                                <input type="text" name="qtd" placeholder="Quantidade" pattern="[0-9]+">
+                             </label>
+
+                             <label class="campanha">Campanha: <br>
+                                <select name="campanhas" required>
+                                        <option value=""selected></option>
+                                        <option value="campanhaA">Campanha A</option>
+                                        <option value="campanhaB">Campanha B</option>
+                                        <option value="campanhaC">Campanha C</option>
+                                        <option value="campanhaD">Campanha D</option>
+                                        <option value="campanhaE">Campanha E</option>
+                                        <option value="campanhaF">Campanha F</option>
+                                        <option value="campanhaG">Campanha G</option>
+                                        <option value="campanhaH">Campanha H</option>
+                                        <option value="campanhaI">Campanha I</option>
+                                    </select>
+                             </label>
+
+                             <label class="itemBonficiado">Item Bonificado: <br>
+                                <input type="text" name="itemBonificado" placeholder="Codigo do Item." maxlength="4" minlength="4" pattern="[0-9]+">
+                             </label>
+
+                             <label class="qtdBonificado">Qtd Bonificada: <br>
+                                <input type="text" name="qtdBonificada" placeholder="Quantidade" pattern="[0-9]+">
+                             </label>
+
+                             <label>
+                                <input type="file" name="arquivo" >
+                             </label>
+                             
+                             
+                  </form>
+                  <label class="botao">
+                        <button type="submit" value="Submit">Enviar</button>
+                  </label>             
+                </div>
+        </section>
+</body>
+</html>
