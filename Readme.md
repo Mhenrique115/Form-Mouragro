@@ -42,13 +42,12 @@ Após preencher o formulário, o vendedor deve clicar no botão "Enviar". Porém
 
 - HTML
 - CSS
+- JS
 
 ## Contribuições
 
 Se você quiser contribuir para o projeto e ajudar a finalizar a integração com o Google Sheets, fique à vontade para fazer um fork deste repositório, adicionar melhorias e criar um pull request.
 
-## Contatos
+## Contato
 
-- **Email**: [contato@seuemail.com](mailto:contato@seuemail.com)
-- **LinkedIn**: [https://www.linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/seu-linkedin)
-- **Instagram**: [@seu_instagram](https://www.instagram.com/seu_instagram)
+Desenvolvido por: [@mhenrique36](https://www.instagram.com/mhenrique36/)
